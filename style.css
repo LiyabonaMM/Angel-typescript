@@ -73,8 +73,15 @@ body {
     z-index: 1;
 }
 
+
 /* Video container styles */
 .video-container {
-    padding: 20px;
+    padding: 210x;
     text-align: center;
+}
+
+/* Make the video responsive */
+.video-container iframe {
+    max-width: 100%; /* To ensure the video fits within the container */
+    height: auto; /* Allow the height to adjust accordingly */
 }
